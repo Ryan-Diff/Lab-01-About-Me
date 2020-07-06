@@ -13,7 +13,7 @@ myButton.addEventListener('click', () => {
         return;
     }
     const answer1 = prompt('Do I like ear-rubs?');
-    const answer2 = prompt('Do I like food?');
+    const answer2 = prompt('Cats?');
     const answer3 = prompt('Am I poohead?');
     let score = 0;
 
