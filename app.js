@@ -20,7 +20,7 @@ myButton.addEventListener('click', () => {
     if (isYes(answer1)) {
         score++;
     }
-    if (isYes(answer2)) {
+    if (!isYes(answer2)) {
         score++;
     }
     if (isYes(answer3)) {
