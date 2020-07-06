@@ -36,7 +36,7 @@ test('It should return false if passed anything not starting with y', (expect) =
     const word2 = 'uhh-uh';
     const word3 = 'naa';
     const word4 = 'NO';
-    const expected = true;
+    const expected = false;
 
     
     //Act 
